@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      elparadisogonzalo:
+        specifier: ^1.9.0
+        version: 1.9.0
+
+packages:
+
+  elparadisogonzalo@1.9.0:
+    resolution: {integrity: sha512-xitNon5NO2qzuC12no/g6epMwv8h1C4u6n208H4MhScXGFr64jPwzd41DG3Z4+fydbR4avVK46iKvhjXhhRHUQ==}
+
+snapshots:
+
+  elparadisogonzalo@1.9.0: {}

@@ -4602,5 +4602,8 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     }
+  },
+  "dependencies": {
+    "elparadisogonzalo": "^1.9.0"
   }
 }
