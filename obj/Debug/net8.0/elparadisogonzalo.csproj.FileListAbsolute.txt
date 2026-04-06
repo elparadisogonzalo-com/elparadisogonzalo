@@ -1,0 +1,12 @@
+/home/koa/elparadisogonzalo/bin/Debug/net8.0/elparadisogonzalo.deps.json
+/home/koa/elparadisogonzalo/bin/Debug/net8.0/elparadisogonzalo.dll
+/home/koa/elparadisogonzalo/bin/Debug/net8.0/elparadisogonzalo.pdb
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.GeneratedMSBuildEditorConfig.editorconfig
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.AssemblyInfoInputs.cache
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.AssemblyInfo.cs
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.csproj.CoreCompileInputs.cache
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.sourcelink.json
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.dll
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/refint/elparadisogonzalo.dll
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/elparadisogonzalo.pdb
+/home/koa/elparadisogonzalo/obj/Debug/net8.0/ref/elparadisogonzalo.dll
