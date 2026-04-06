@@ -1,0 +1,61 @@
+runtime: nodejs24
+env: standard
+service: default
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 5
+  target_cpu_utilization: 0.65
+  cool_down_period_sec: 90
+
+env_variables:
+  NODE_ENV: "production"
+  PORT: 8080
+  API_KEY: "your-api-key"
+  DATABASE_URL: "your-database-url"
+  DOMAIN_NAME: "elparadisogonzalo.com"
+
+handlers:
+  - url: /static
+    static_dir: public/static
+    secure: always
+
+  - url: /favicon\.ico
+    static_files: public/favicon.ico
+    upload: public/favicon\.ico
+    secure: always
+
+  - url: /api/.*
+    script: auto
+    secure: always
+
+  - url: /.*
+    static_files: public/index.html
+    upload: public/index.html
+    secure: always
+
+error_handlers:
+  - file: public/404.html
+    error_code: default
+  - file: public/500.html
+    error_code: default
+
+liveness_check:
+  path: /_ah/health
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 3
+  success_threshold: 5
+  initial_delay_sec: 60
+
+readiness_check:
+  path: /_ah/ready
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 3
+  success_threshold: 2
+  app_start_timeout_sec: 300
+
+network:
+  session_affinity: true
+  instance_tag: fullstack-app

@@ -1,0 +1,26 @@
+{
+  "name": "elparadisogonzalo",
+  "version": "3.2.0",
+  "description": "Minimal setup to get React working in Vite with HMR and ESLint rules.",
+  "homepage": "https://github.com/elparadisogonzalo-com/elparadisogonzalo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elparadisogonzalo-com/elparadisogonzalo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elparadisogonzalo-com/elparadisogonzalo/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "elparadisogonzalo",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
