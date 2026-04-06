@@ -1,0 +1,16 @@
+{
+  "project": {
+    "name": "elparadisogonzalo",
+    "version": "1.0.0",
+    "author": "azeh agowa"
+  },
+  "app": {
+    "assets_dir": "src/assets",
+    "debug": true
+  },
+  "web3": {
+    "network": "ethereum",
+    "rpc_url": "",
+    "wallet_address": "0x802ba6A112F4A7BBbC2d63c8EF4bC14DFCBe6245"
+  }
+}
