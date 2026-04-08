@@ -1,0 +1,24 @@
+name: GitHub Actions Demo
+on: [push]
+
+jobs:
+  Linter-and-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install svgwrite pylint
+
+      - name: Run Linter
+        # This runs pylint but prevents it from failing the whole build 
+        # unless the score is extremely low (e.g., below 5.0)
+        run: |
+          pylint scripts/generate_logo.py --fail-under=7.0
