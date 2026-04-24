@@ -1,4 +1,8 @@
+![Auto Assign](https://github.com/elparadisogonzalo-com/elparadisogonzalo/actions/workflows/auto-assign.yml/badge.svg)
+
+![Proof HTML](https://github.com/elparadisogonzalo-com/elparadisogonzalo/actions/workflows/proof-html.yml/badge.svg)
 🌌 Quantum Wonders Full Stack
+
 Welcome to Quantum Wonders, a full-stack repository where front-end elegance meets back-end power—performing digital miracles across the stack.
 🚀 Features
 Quantum-Grade Performance: Ultra-responsive UI paired with high-speed API endpoints.
