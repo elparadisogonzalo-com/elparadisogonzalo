@@ -1,18 +1,17 @@
-  GNU nano 9.0                    package.json
 {
   "name": "@elparadisogonzalo-com/elparadisogonzalo",
   "version": "3.2.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "description": "This template provides a minimal setup to get React worki>
-  "homepage": "https://github.com/elparadisogonzalo-com/elparadisogonzalo#r>
+  "description": "This template provides a minimal setup to get React working",
+  "homepage": "https://github.com/elparadisogonzalo-com/elparadisogonzalo#readme",
   "bugs": {
-    "url": "https://github.com/elparadisogonzalo-com/elparadisogonzalo/issu>
+    "url": "https://github.com/elparadisogonzalo-com/elparadisogonzalo/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elparadisogonzalo-com/elparadisogonzalo.>
+    "url": "git+https://github.com/elparadisogonzalo-com/elparadisogonzalo.git"
   },
   "license": "Apache-2.0",
   "author": "elparadisogonzalo-com",
@@ -24,7 +23,3 @@
     "@elparadisogonzalo-com/elparadisogonzalo": "^3.2.0"
   }
 }
-
-
-
-
