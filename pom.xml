@@ -1,12 +1,38 @@
-<distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub elparadisogonzalo-com Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/elparadisogonzalo-com/elparadisogonzalo</url>
-   </repository>
-   <snapshotRepository>
-     <id>github</id>
-     <name>GitHub elparadisogonzalo-com Apache Maven Snapshots</name>
-     <url>https://maven.pkg.github.com/elparadisogonzalo-com/elparadisogonzalo</url>
-   </snapshotRepository>
-</distributionManagement>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.elparadisogonzalo</groupId>
+    <artifactId>elparadisogonzalo</artifactId>
+    <version>3.2.0</version>
+    <packaging>jar</packaging>
+
+    <name>elparadisogonzalo</name>
+    <description>elparadisogonzalo project</description>
+    <url>https://github.com/elparadisogonzalo-com/elparadisogonzalo</url>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub elparadisogonzalo-com Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/elparadisogonzalo-com/elparadisogonzalo</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
