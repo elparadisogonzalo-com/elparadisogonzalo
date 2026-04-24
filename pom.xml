@@ -1,0 +1,12 @@
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub elparadisogonzalo-com Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/elparadisogonzalo-com/elparadisogonzalo</url>
+   </repository>
+   <snapshotRepository>
+     <id>github</id>
+     <name>GitHub elparadisogonzalo-com Apache Maven Snapshots</name>
+     <url>https://maven.pkg.github.com/elparadisogonzalo-com/elparadisogonzalo</url>
+   </snapshotRepository>
+</distributionManagement>
